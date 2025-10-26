@@ -51,6 +51,7 @@ and AI integration.
 | **[spring-boot-rest-api-standards](skills/spring-boot/spring-boot-rest-api-standards/SKILL.md)**       | REST API design standards            | HTTP semantics, error handling, pagination, security headers      |
 | **[spring-boot-test-patterns](skills/spring-boot/spring-boot-test-patterns/SKILL.md)**                 | Integration testing patterns         | Testcontainers, Spring slice tests, database strategies           |
 | **[spring-boot-cache](skills/spring-boot/spring-boot-cache/SKILL.md)**                                 | Spring Boot caching patterns         | Cache configuration, eviction strategies, distributed caching     |
+| **[spring-boot-batch](skills/spring-boot/spring-boot-batch/SKILL.md)**                                 | Batch processing patterns            | Job configuration, step management, chunk processing, partitioning |
 | **[spring-boot-saga-pattern](skills/spring-boot/spring-boot-saga-pattern/SKILL.md)**                               | Distributed transaction management   | Saga pattern, choreography, orchestration, compensating transactions |
 | **[spring-data-jpa](skills/spring-boot/spring-data-jpa/SKILL.md)**                                     | Spring Data JPA best practices       | Query methods, custom repositories, performance optimization      |
 | **[spring-data-neo4j](skills/spring-boot/spring-data-neo4j/SKILL.md)**                                 | Neo4j graph database integration     | Graph modeling, Cypher queries, relationships, reactive mode      |
@@ -123,8 +124,9 @@ developer-kit-claude-code/
 │   ├── langchain4j-ai-development-expert.md
 │   └── spring-boot-unit-testing-expert.md
 ├── skills/                              # Reusable skills organized by domain
-│   ├── spring-boot/                     # Spring Boot framework skills (11)
+│   ├── spring-boot/                     # Spring Boot framework skills (12)
 │   │   ├── spring-boot-actuator/
+│   │   ├── spring-boot-batch/
 │   │   ├── spring-boot-cache/
 │   │   ├── spring-boot-crud-patterns/
 │   │   ├── spring-boot-dependency-injection/
